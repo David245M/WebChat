@@ -1,0 +1,20 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "nodemon server/app.js"
+  },
+  "author": "Mike Kokadii <misha2479k@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "http": "0.0.1-security",
+    "websocket": "^1.0.33",
+    "ws": "^7.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
